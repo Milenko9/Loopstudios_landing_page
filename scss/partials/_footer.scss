@@ -1,0 +1,41 @@
+.main-footer {
+  width: 350px;
+  margin: 0 auto;
+  background-color: black;
+  .logoFooter {
+    width: 100%;
+    height: 30px;
+    margin-top: 45px;
+    img {
+      height: 22px;
+    }
+  }
+  .navFooter {
+    margin-top: 20px;
+    .nav-link {
+      padding: .4rem 1rem;
+      color: white;
+    }
+  }
+  .socNetIcons {
+    height: 40px;
+    margin-top: 30px;
+    .nav-link {
+      padding: .5rem .45rem;
+    }
+  }
+  h4 {
+    font-size: 15px;
+    color: grey;
+    margin: 15px 0 50px 0;
+    font-weight: bold;
+  }
+
+  .attribution {
+    font-size: 11px;
+    color: white;
+    a {
+      color: white
+    }
+  }
+}

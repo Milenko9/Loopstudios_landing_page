@@ -1,1 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
+.main-header {
+  width: 350px;
+  height: 600px;
+  position: relative;
+  background-color: red;
+  margin: 0 auto;
+  background-image: url("../img/mobile/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .main-header .nav-menu {
+    height: 30px;
+    margin-top: 30px; }
+    .main-header .nav-menu .logo {
+      width: 50%;
+      height: 30px;
+      padding-left: 30px; }
+      .main-header .nav-menu .logo img {
+        height: 22px; }
+    .main-header .nav-menu .menu {
+      width: 50%;
+      height: 30px;
+      padding-right: 30px; }
+  .main-header .immersive-text {
+    padding: 0 30px;
+    position: absolute;
+    top: 210px; }
+    .main-header .immersive-text h1 {
+      text-transform: uppercase;
+      color: white;
+      font-size: 35px;
+      line-height: 0.95;
+      border: 2px solid white;
+      padding: 20px 20px 15px;
+      margin: 0; }
 
+.mainDiv {
+  width: 350px;
+  margin: 0 auto;
+  padding: 0 30px; }
+  .mainDiv .mainArticleDiv {
+    margin-top: 90px;
+    text-align: center; }
+    .mainDiv .mainArticleDiv a {
+      text-decoration: none;
+      color: black; }
+    .mainDiv .mainArticleDiv h2 {
+      text-transform: uppercase;
+      margin: 40px 0 10px;
+      font-size: 30px; }
+  .mainDiv .ourCreationsDiv a {
+    text-decoration: none;
+    color: black; }
+  .mainDiv .ourCreationsDiv .creationsDivs {
+    height: 115px;
+    margin-bottom: 20px;
+    position: relative;
+    box-shadow: inset 120px 0px 100px -90px #000000; }
+    .mainDiv .ourCreationsDiv .creationsDivs p {
+      text-transform: uppercase;
+      color: white;
+      font-size: 22px;
+      line-height: 1;
+      position: absolute;
+      bottom: 0px;
+      left: 20px; }
+  .mainDiv .ourCreationsDiv .ourCreationsTxt {
+    background-color: white;
+    margin-bottom: 10px;
+    box-shadow: none; }
+    .mainDiv .ourCreationsDiv .ourCreationsTxt h3 {
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 110px;
+      font-size: 30px; }
+  .mainDiv .ourCreationsDiv .deepEarth {
+    background-image: url("../img/mobile/image-deep-earth.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .mainDiv .ourCreationsDiv .nightArcade {
+    background-image: url("../img/mobile/image-night-arcade.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .mainDiv .ourCreationsDiv .soccerTeamVr {
+    background-image: url("../img/mobile/image-soccer-team.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .mainDiv .ourCreationsDiv .theGrid {
+    background-image: url("../img/mobile/image-grid.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .mainDiv .ourCreationsDiv .frompUpAboveVr {
+    background-image: url("../img/mobile/image-from-above.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .mainDiv .ourCreationsDiv .pocketBorealis {
+    background-image: url("../img/mobile/image-pocket-borealis.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .mainDiv .ourCreationsDiv .theCuriosity {
+    background-image: url("../img/mobile/image-curiosity.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .mainDiv .ourCreationsDiv .makeItFisheye {
+    background-image: url("../img/mobile/image-fisheye.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 35px; }
+  .mainDiv .ourCreationsDiv button {
+    width: 160px;
+    height: 40px;
+    border: 2px solid black;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    letter-spacing: 3px; }
+
+.main-footer {
+  width: 350px;
+  margin: 0 auto;
+  background-color: black; }
+  .main-footer .logoFooter {
+    width: 100%;
+    height: 30px;
+    margin-top: 45px; }
+    .main-footer .logoFooter img {
+      height: 22px; }
+  .main-footer .navFooter {
+    margin-top: 20px; }
+    .main-footer .navFooter .nav-link {
+      padding: .4rem 1rem;
+      color: white; }
+  .main-footer .socNetIcons {
+    height: 40px;
+    margin-top: 30px; }
+    .main-footer .socNetIcons .nav-link {
+      padding: .5rem .45rem; }
+  .main-footer h4 {
+    font-size: 15px;
+    color: grey;
+    margin: 15px 0 50px 0;
+    font-weight: bold; }
+  .main-footer .attribution {
+    font-size: 11px;
+    color: white; }
+    .main-footer .attribution a {
+      color: white; }
+
+* {
+  font-family: 'Alata', sans-serif;
+  font-family: 'Josefin Sans', sans-serif; }
+
+/*# sourceMappingURL=main.css.map */

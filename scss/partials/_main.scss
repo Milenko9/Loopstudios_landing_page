@@ -1,0 +1,102 @@
+.mainDiv {
+  width: 350px;
+  margin: 0 auto;
+  padding: 0 30px;
+  .mainArticleDiv {
+    margin-top: 90px;
+    text-align: center;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    h2 {
+      text-transform: uppercase;
+      margin: 40px 0 10px;
+      font-size: 30px;
+    }
+  }
+  .ourCreationsDiv {
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    .creationsDivs {
+      height: 115px;
+      margin-bottom: 20px;
+      position: relative;
+      box-shadow: inset 120px 0px 100px -90px #000000;
+      p {
+        text-transform: uppercase;
+        color: white;
+        font-size: 22px;
+        line-height: 1;
+        position: absolute;
+        bottom: 0px;
+        left: 20px;
+      }
+    }
+    .ourCreationsTxt {
+      background-color: white;
+      margin-bottom: 10px;
+      box-shadow: none;
+      h3 {
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 110px;
+        font-size: 30px;
+      }
+    }
+    .deepEarth {
+      background-image: url("../img/mobile/image-deep-earth.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .nightArcade {
+      background-image: url("../img/mobile/image-night-arcade.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .soccerTeamVr {
+      background-image: url("../img/mobile/image-soccer-team.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .theGrid {
+      background-image: url("../img/mobile/image-grid.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .frompUpAboveVr {
+      background-image: url("../img/mobile/image-from-above.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .pocketBorealis {
+      background-image: url("../img/mobile/image-pocket-borealis.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .theCuriosity {
+      background-image: url("../img/mobile/image-curiosity.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .makeItFisheye {
+      background-image: url("../img/mobile/image-fisheye.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-bottom: 35px;
+    }
+    button {
+      width: 160px;
+      height: 40px;
+      border: 2px solid black;
+      background-color: white;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin: 0 auto;
+      margin-bottom: 100px;
+      letter-spacing: 3px;
+    }
+  }
+}
