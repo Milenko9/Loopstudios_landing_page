@@ -24,6 +24,8 @@
       height: 115px;
       margin-bottom: 20px;
       position: relative;
+      -webkit-box-shadow: inset 120px 0px 100px -90px #000000;
+      -moz-box-shadow: inset 120px 0px 100px -90px #000000;
       box-shadow: inset 120px 0px 100px -90px #000000;
       p {
         text-transform: uppercase;

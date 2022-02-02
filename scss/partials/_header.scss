@@ -2,7 +2,7 @@
   width: 350px;
   height: 600px;
   position: relative;
-  background-color: red;
+  background-color: black;
   margin: 0 auto;
   background-image: url("../img/mobile/image-hero.jpg");
   background-repeat: no-repeat;
@@ -10,21 +10,65 @@
   .nav-menu {
     height: 30px;
     margin-top: 30px;
-    // background-color: red;
     .logo {
       width: 50%;
       height: 30px;
-      // background-color: cadetblue;
       padding-left: 30px;
       img {
         height: 22px;
       }
     }
-    .menu {
+    .mobile-menu {
+      width: 350px;
+      height: 570px;
+      background-color: black;
+      position: relative;
+      display: none;
+      img {
+        height: 22px;
+      }
+      .mobile-nav {
+        padding: 50px 0 0 30px;
+        .mobile-ul {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          .mobile-li {
+            a {
+              color: white;
+              text-decoration: none;
+              text-transform: uppercase;
+              font-size: 23px;
+              line-height: 2.3;
+            }
+          }
+        }
+      }
+      .icon-close {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 0;
+        right: 30px;
+        img {
+          max-width: 20px;
+          height: 20px;
+          cursor: pointer;
+        }
+      }
+    }
+    .hamburger-menu {
       width: 50%;
-      height: 30px;
-      // background-color: blue;
-      padding-right: 30px;
+      padding: 5px 30px 0 0;
+      img {
+        width: 24px;
+        height: 16px;
+        float: right;
+        cursor: pointer;
+      }
+    }
+    .nav {
+      display: none;
     }
   }
   .immersive-text {
