@@ -70,6 +70,46 @@
       padding: 20px 20px 15px;
       margin: 0; }
 
+@media (min-width: 1200px) {
+  .main-header {
+    width: 100%;
+    height: 700px;
+    background-image: url("../img/desktop/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-box-shadow: inset 1px 0px 400px 15px #000000;
+    -moz-box-shadow: inset 1px 0px 400px 15px #000000;
+    box-shadow: inset 1px 0px 400px 15px #000000; }
+    .main-header .nav-menu {
+      height: 50px;
+      margin-top: 70px;
+      padding: 0 100px; }
+      .main-header .nav-menu .logo {
+        width: 60%;
+        height: 50px; }
+        .main-header .nav-menu .logo img {
+          height: 30px; }
+      .main-header .nav-menu .hamburger-menu {
+        display: none; }
+      .main-header .nav-menu .nav {
+        width: 40%;
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 0 0 100px;
+        padding-right: 30px; }
+        .main-header .nav-menu .nav li > a {
+          color: white;
+          padding: 0;
+          margin: 0;
+          font-size: 17px;
+          font-weight: bold; }
+    .main-header .immersive-text {
+      width: 62%;
+      padding: 0 120px; }
+      .main-header .immersive-text h1 {
+        font-size: 65px;
+        padding: 40px 40px 35px; } }
 .mainDiv {
   width: 350px;
   margin: 0 auto;
@@ -90,10 +130,15 @@
   .mainDiv .ourCreationsDiv .creationsDivs {
     height: 115px;
     margin-bottom: 20px;
+    padding: 0;
     position: relative;
     -webkit-box-shadow: inset 120px 0px 100px -90px #000000;
     -moz-box-shadow: inset 120px 0px 100px -90px #000000;
     box-shadow: inset 120px 0px 100px -90px #000000; }
+    .mainDiv .ourCreationsDiv .creationsDivs a {
+      display: inline-block;
+      width: 100%;
+      height: 100%; }
     .mainDiv .ourCreationsDiv .creationsDivs p {
       text-transform: uppercase;
       color: white;
@@ -151,10 +196,73 @@
     background-color: white;
     text-transform: uppercase;
     font-weight: bold;
-    margin: 0 auto;
+    margin-left: 23%;
     margin-bottom: 100px;
     letter-spacing: 3px; }
 
+@media (min-width: 1200px) {
+  .mainDiv {
+    width: 80%; }
+    .mainDiv .ourCreationsDiv {
+      position: relative;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; }
+      .mainDiv .ourCreationsDiv .creationsDivs {
+        width: 23%;
+        height: 500px;
+        -webkit-box-shadow: inset 1px 0px 100px 15px #000000;
+        -moz-box-shadow: inset 1px 0px 100px 15px #000000;
+        box-shadow: inset 1px 0px 100px 15px #000000; }
+        .mainDiv .ourCreationsDiv .creationsDivs p {
+          font-size: 32px;
+          line-height: 1;
+          bottom: 10px;
+          left: 40px; }
+      .mainDiv .ourCreationsDiv .ourCreationsTxt {
+        width: 100%;
+        height: 115px;
+        box-shadow: none; }
+        .mainDiv .ourCreationsDiv .ourCreationsTxt h3 {
+          float: left; }
+      .mainDiv .ourCreationsDiv .deepEarth {
+        background-image: url("../img/desktop/image-deep-earth.jpg");
+        background-repeat: no-repeat;
+        background-size: cover; }
+      .mainDiv .ourCreationsDiv .nightArcade {
+        background-image: url("../img/desktop/image-night-arcade.jpg");
+        background-repeat: no-repeat;
+        background-size: cover; }
+      .mainDiv .ourCreationsDiv .soccerTeamVr {
+        background-image: url("../img/desktop/image-soccer-team.jpg");
+        background-repeat: no-repeat;
+        background-size: cover; }
+      .mainDiv .ourCreationsDiv .theGrid {
+        background-image: url("../img/desktop/image-grid.jpg");
+        background-repeat: no-repeat;
+        background-size: cover; }
+      .mainDiv .ourCreationsDiv .frompUpAboveVr {
+        background-image: url("../img/desktop/image-from-above.jpg");
+        background-repeat: no-repeat;
+        background-size: cover; }
+      .mainDiv .ourCreationsDiv .pocketBorealis {
+        background-image: url("../img/desktop/image-pocket-borealis.jpg");
+        background-repeat: no-repeat;
+        background-size: cover; }
+      .mainDiv .ourCreationsDiv .theCuriosity {
+        background-image: url("../img/desktop/image-curiosity.jpg");
+        background-repeat: no-repeat;
+        background-size: cover; }
+      .mainDiv .ourCreationsDiv .makeItFisheye {
+        background-image: url("../img/desktop/image-fisheye.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 35px; }
+      .mainDiv .ourCreationsDiv button {
+        position: absolute;
+        top: 33px;
+        right: 12px; } }
 .main-footer {
   width: 350px;
   margin: 0 auto;
