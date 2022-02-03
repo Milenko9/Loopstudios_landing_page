@@ -28,6 +28,9 @@
       -webkit-box-shadow: inset 120px 0px 100px -90px #000000;
       -moz-box-shadow: inset 120px 0px 100px -90px #000000;
       box-shadow: inset 120px 0px 100px -90px #000000;
+      &:hover {
+        opacity: .6;
+      }
       a {
         display: inline-block;
         width: 100%;
@@ -102,10 +105,13 @@
       background-color: white;
       text-transform: uppercase;
       font-weight: bold;
-      // margin: 0 auto;
       margin-left: 23%;
       margin-bottom: 100px;
       letter-spacing: 3px;
+      &:hover {
+        background-color: black;
+        color: white;
+      }
     }
   }
 }
@@ -115,7 +121,20 @@
   .mainDiv {
     width: 80%;
     .mainArticleDiv {
-      // URADITI KASNIJE
+      position: relative;
+      text-align: left;
+      margin: 100px 0 140px 0;
+      img {
+        float: left;
+      }
+      .mainArticleTxt {
+        width: 400px;
+        position: absolute;
+        top: 187px;
+        left: 520px;
+        background-color: white;
+        padding: 20px 0 0 40px;
+      }
     }
     .ourCreationsDiv {
       position: relative;

@@ -15,6 +15,10 @@
     .nav-link {
       padding: .4rem 1rem;
       color: white;
+      transition: .15s;
+      &:hover {
+        border-bottom: 1px solid white;
+      }
     }
   }
   .socNetIcons {
@@ -22,6 +26,9 @@
     margin-top: 30px;
     .nav-link {
       padding: .5rem .45rem;
+      &:hover {
+        border-bottom: 1px solid white;
+      }
     }
   }
   h4 {
@@ -30,12 +37,48 @@
     margin: 15px 0 50px 0;
     font-weight: bold;
   }
-
   .attribution {
     font-size: 11px;
     color: white;
     a {
       color: white
+    }
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .main-footer {
+    width: 100%;
+    position: relative;
+    .logoFooter {
+      padding-left: 190px;
+      img {
+        float: left;
+      }
+    }
+    .navFooter {
+      width: 100%;
+      padding-left: 172px;
+      .nav {
+        display: flex;
+        flex-direction: row!important;
+      }
+    }
+    .socNetIcons {
+      width: 200px;
+      position: absolute;
+      top: 20;
+      right: 160px;
+    }
+    h4 {
+      width: 500px;
+      position: absolute;
+      top: 90px;
+      right: 64px;
+    }
+    .attribution {
+      margin-top: 100px;
     }
   }
 }

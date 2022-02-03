@@ -37,6 +37,8 @@
             text-transform: uppercase;
             font-size: 23px;
             line-height: 2.3; }
+            .main-header .nav-menu .mobile-menu .mobile-nav .mobile-ul .mobile-li a:hover {
+              border-bottom: 1px solid white; }
       .main-header .nav-menu .mobile-menu .icon-close {
         width: 40px;
         height: 40px;
@@ -104,6 +106,8 @@
           margin: 0;
           font-size: 17px;
           font-weight: bold; }
+          .main-header .nav-menu .nav li > a:hover {
+            border-bottom: 1px solid white; }
     .main-header .immersive-text {
       width: 62%;
       padding: 0 120px; }
@@ -135,6 +139,8 @@
     -webkit-box-shadow: inset 120px 0px 100px -90px #000000;
     -moz-box-shadow: inset 120px 0px 100px -90px #000000;
     box-shadow: inset 120px 0px 100px -90px #000000; }
+    .mainDiv .ourCreationsDiv .creationsDivs:hover {
+      opacity: .6; }
     .mainDiv .ourCreationsDiv .creationsDivs a {
       display: inline-block;
       width: 100%;
@@ -199,10 +205,26 @@
     margin-left: 23%;
     margin-bottom: 100px;
     letter-spacing: 3px; }
+    .mainDiv .ourCreationsDiv button:hover {
+      background-color: black;
+      color: white; }
 
 @media (min-width: 1200px) {
   .mainDiv {
     width: 80%; }
+    .mainDiv .mainArticleDiv {
+      position: relative;
+      text-align: left;
+      margin: 100px 0 140px 0; }
+      .mainDiv .mainArticleDiv img {
+        float: left; }
+      .mainDiv .mainArticleDiv .mainArticleTxt {
+        width: 400px;
+        position: absolute;
+        top: 187px;
+        left: 520px;
+        background-color: white;
+        padding: 20px 0 0 40px; }
     .mainDiv .ourCreationsDiv {
       position: relative;
       width: 100%;
@@ -277,12 +299,17 @@
     margin-top: 20px; }
     .main-footer .navFooter .nav-link {
       padding: .4rem 1rem;
-      color: white; }
+      color: white;
+      transition: .15s; }
+      .main-footer .navFooter .nav-link:hover {
+        border-bottom: 1px solid white; }
   .main-footer .socNetIcons {
     height: 40px;
     margin-top: 30px; }
     .main-footer .socNetIcons .nav-link {
       padding: .5rem .45rem; }
+      .main-footer .socNetIcons .nav-link:hover {
+        border-bottom: 1px solid white; }
   .main-footer h4 {
     font-size: 15px;
     color: grey;
@@ -294,6 +321,32 @@
     .main-footer .attribution a {
       color: white; }
 
+@media (min-width: 1200px) {
+  .main-footer {
+    width: 100%;
+    position: relative; }
+    .main-footer .logoFooter {
+      padding-left: 190px; }
+      .main-footer .logoFooter img {
+        float: left; }
+    .main-footer .navFooter {
+      width: 100%;
+      padding-left: 172px; }
+      .main-footer .navFooter .nav {
+        display: flex;
+        flex-direction: row !important; }
+    .main-footer .socNetIcons {
+      width: 200px;
+      position: absolute;
+      top: 20;
+      right: 160px; }
+    .main-footer h4 {
+      width: 500px;
+      position: absolute;
+      top: 90px;
+      right: 64px; }
+    .main-footer .attribution {
+      margin-top: 100px; } }
 * {
   font-family: 'Alata', sans-serif;
   font-family: 'Josefin Sans', sans-serif; }
